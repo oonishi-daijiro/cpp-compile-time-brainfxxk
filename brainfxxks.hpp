@@ -3,7 +3,6 @@
 #include "brainfxxk_operations.hpp"
 #include "typearray.hpp"
 
-
 using fizzbuzz = typearray<
     inc, inc, inc, inc, inc, inc, lb, dec, iptr, inc, inc, inc, inc, iptr, iptr,
     inc, iptr, inc, iptr, dec, dptr, dptr, dptr, dptr, dptr, le, iptr, lb, dptr,
@@ -65,3 +64,5 @@ using prime02100 = typearray<
     out, dec, dec, out>;
 
 using all_ascii = typearray<out, inc, lb, out, inc, le>;
+
+#define run_this_program(p) using program = p::push_back<end>;
