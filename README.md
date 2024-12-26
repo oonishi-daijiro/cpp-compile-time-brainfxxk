@@ -38,8 +38,14 @@ Brainfuckのコードは以下の表を参考にして作成してください�
 | [                 | lb                       |
 | ]                 | le                       |
 
-### 例
+例）
 `.+[.+]` → `typearray<out,inc,lb,out,inc,le>`
+
+
+### 入力
+`brainfxxk`を`std::integer_sequence<memory_type,...>`で特殊化することで入力を渡します．<br><br>
+例）
+`brainfxxk<memory_type,1,2,3>::out`
 
 ### Build
 ```
