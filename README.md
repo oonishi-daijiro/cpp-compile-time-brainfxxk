@@ -23,7 +23,7 @@ int main() { std::cout << unwrap<brainfxxk<>::out>::value; }
 ```
 
 `hello_world`は[brainfxxks.hppヘッダー](https://github.com/oonishi-daijiro/cpp-compile-time-brainfxxk/blob/master/brainfxxks.hpp)に記載されているサンプルプログラムです．
-任意のBrainfuxkプログラムを実行する場合，`run_this_program`マクロに`typearray<...>`を渡します．
+任意のBrainfuckプログラムを実行する場合，`run_this_program`マクロに`typearray<...>`を渡します．
 Brainfuckのコードは以下の表を参考にして作成してください．
 
 |                   |                          |
